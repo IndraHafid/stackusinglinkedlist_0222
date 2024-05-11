@@ -28,6 +28,11 @@ public :
     {
         top = NULL;
     }
+
+    int push(int value)
+    {
+
+    }
 };
 
 int main()

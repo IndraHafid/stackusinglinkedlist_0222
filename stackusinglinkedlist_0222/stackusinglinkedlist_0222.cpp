@@ -106,8 +106,27 @@ int main()
                 cout << "Stack is empty. Cannot pop." << endl;
             }
             break;
+        case 3:
+            if (!stack.isEmpty())
+            {
+                stack.peek();
+            }
+            else
+            {
+                cout << "Stack is empty. No top value." << endl;
+            }
+            break;
+
+        case 4:
+            cout << "Exiting program." << endl;
+            break;
+        default:
+            cout << "Invalid choice. Try again." << endl;
+            break;
         }
+        cout << endl;
     }
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -76,7 +76,19 @@ public :
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Stack stack;
+    int choice = 0;
+    int value;
+
+    while (choice != 5)
+    {
+        cout << "1. Push\n";
+        cout << "2. Pop\n";
+        cout << "3. Peek\n";
+        cout << "4. Exit\n";
+        cout << "Enter your choice: ";
+        cin >> choice;
+    }
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
